@@ -1,0 +1,31 @@
+# ClipOCR - 轻量级剪贴板历史与OCR截图智能管理引擎
+# 依赖列表
+
+# 剪贴板操作
+pyperclip>=1.8.2
+
+# 截图功能
+Pillow>=9.0.0
+
+# OCR文字识别
+pytesseract>=0.3.10
+
+# TUI界面
+rich>=13.0.0
+textual>=0.41.0
+
+# 数据存储
+sqlite3-utils>=3.0.0
+
+# 配置管理
+pydantic>=2.0.0
+
+# 键盘监听 (可选，用于快捷键)
+pynput>=1.7.6; platform_system != "Linux" or platform_machine != "aarch64"
+
+# 图像处理
+numpy>=1.21.0
+
+# 工具库
+click>=8.0.0
+python-dateutil>=2.8.0
